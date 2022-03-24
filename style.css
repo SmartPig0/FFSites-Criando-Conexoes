@@ -10,13 +10,21 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
     font-family: 'Inter', sans-serif;
     font-family: 'Noto Serif', serif;
     color: var(--blue);
     background: var(--white);
 }
 
+.header-menu {
+ display: flex;
+ justify-content: space-between; 
+}
+
+.img-menu {
+    width: 10em;
+}
+
+h1 {
+    text-align: center;
+}
