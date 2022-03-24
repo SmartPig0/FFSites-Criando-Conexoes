@@ -35,15 +35,17 @@ h1 {
     text-align: center;
     font-family: 'Noto Serif', serif;
     letter-spacing: .2em;
-}
+    margin: 10px 10px;
+   }
 
 p {
     font-family: 'Noto Serif', serif;
+    font-size: 20px;
 }
 
 
-section {
-    width: 100%;
+div {
+    
     height: 450px;
     text-align: center;
     background-position: center;
@@ -53,14 +55,17 @@ section {
 }
 
 
-section:nth-of-type(1){
-    background-image: url("./lib/Propagandas/seusitesvg.svg");
+div:nth-of-type(1){
+    background-image: url("./lib/Propagandas/seu-sitesvg.svg");
 }
-section:nth-of-type(3){
+div:nth-of-type(3){
     background-image: url("./lib/Propagandas/conetesesvg.svg");
 }
 
-section:nth-of-type(2){
-    height: 150px;
+div:nth-of-type(2){
+    height: 300px;
 }
 
+.txt-h1 {
+    color: var(--red);
+}
