@@ -28,3 +28,12 @@ body {
 h1 {
     text-align: center;
 }
+
+.box-1 {
+    box-sizing: border-box;
+    border: solid 2px var(--blue);
+    width: 23em;
+    height:10em;
+    margin-left: 4px;
+}
+
