@@ -18,7 +18,7 @@
 body {
     font-family: 'Inter', sans-serif;
     color: var(--blue);
-    max-width: 100%;    
+    max-width: 100%;     
 }
 
 .header-menu {
@@ -44,8 +44,7 @@ p {
 }
 
 
-div {
-    
+div {    
     height: 450px;
     text-align: center;
     background-position: center;
@@ -66,6 +65,63 @@ div:nth-of-type(2){
     height: 300px;
 }
 
-.txt-h1 {
-    color: var(--red);
+div:nth-of-type(4){
+    height: 350px;
 }
+
+.txt-h2 {
+    color: var(--red);
+    margin: 20px 20px;
+    text-align: center;
+}
+
+/* From cssbuttons.io by @adamgiebl */
+.button-3d {
+    font-size: 16px;
+    padding: 1em 3.3em;
+    transform: perspective(200px) rotateX(15deg);
+    color: white;
+    font-weight: 900;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(0deg, rgba(63,94,251,1) 0%, rgba(70,135,252,1) 100%);
+    box-shadow: rgba(63,94,251,0.2) 0px 40px 29px 0px;
+    will-change: transform;
+    transition: all 0.3s;
+    border-bottom: 2px solid rgba(70,135,252,1);
+   }
+   
+   .button-3d:hover {
+    transform: perspective(180px) rotateX(30deg) translateY(2px);
+   }
+   
+   .button-3d:active {
+    transform: perspective(170px) rotateX(36deg) translateY(5px);
+   }
+
+   .buttons-3d {
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       margin: 20px;
+   }
+
+   .buttons-3d a {
+       text-decoration: none;
+       color: #fff;
+   }
+
+ 
+   /* From cssbuttons.io by @adamgiebl */
+
+   .lp-list {
+    font-family: 'Noto Serif', serif;
+    max-width: 100%;
+    font-size: 20px;
+    margin:8px;
+    
+   }
+
+   strong {
+       text-decoration: underline;
+   }
