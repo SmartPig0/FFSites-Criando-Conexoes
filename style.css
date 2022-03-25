@@ -18,7 +18,7 @@
 body {
     font-family: 'Inter', sans-serif;
     color: var(--blue);
-    max-width: 100%;     
+    max-width: 100%;
 }
 
 .header-menu {
@@ -126,3 +126,14 @@ div:nth-of-type(4){
    strong {
        text-decoration: underline;
    }
+
+   .img-profissoes {
+       max-width: 100%;
+   }
+    
+  .whatsapp-btn {    
+    position: fixed;
+    right: 3px;
+    bottom: 5px;
+    z-index: 1;
+}
