@@ -126,3 +126,7 @@ div:nth-of-type(4){
    strong {
        text-decoration: underline;
    }
+
+   .img-profissoes {
+       max-width: 100%;
+   }
