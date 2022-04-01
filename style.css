@@ -117,7 +117,7 @@ dl li {
     will-change: transform;
     transition: all 0.3s;
     border-bottom: 2px solid rgba(70,135,252,1);
-    max-width: 70%;
+    max-width: 100%;
     align-self: center;
    }
    
@@ -155,9 +155,10 @@ dl li {
    }
 
 #contato {    
-    width: 250px;
+    width: 70px;
     position: fixed;
-    bottom: -60px;
+    top: 5px;
+    right: 0px;
     z-index: 1;
 }
 
