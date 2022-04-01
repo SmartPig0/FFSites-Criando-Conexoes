@@ -138,3 +138,15 @@ p {
     z-index: 1;
 }
 
+.main-first img {
+    width: 50%;
+    margin-bottom: -45px;
+}
+
+#arvore {
+    margin-bottom: -20px;
+}
+
+.line {
+    border: solid 1px var(--blue);
+}
