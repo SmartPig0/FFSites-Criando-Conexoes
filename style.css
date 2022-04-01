@@ -118,9 +118,7 @@ p {
        color: #fff;
    }
 
- 
-   /* From cssbuttons.io by @adamgiebl */
-
+   
    .lp-list {
     font-family: 'Noto Serif', serif;
     max-width: 100%;
@@ -133,14 +131,10 @@ p {
        text-decoration: underline;
    }
 
-   .img-profissoes {
-       max-width: 100%;
-   }
-    
-  .whatsapp-btn {    
+#contato {    
+    width: 250px;
     position: fixed;
-    right: 3px;
-    bottom: 5px;
+    bottom: -60px;
     z-index: 1;
 }
 
