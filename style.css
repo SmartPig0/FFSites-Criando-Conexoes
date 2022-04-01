@@ -55,7 +55,7 @@ p {
 
 h4 {
     margin: 10px;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 #txt-p {
@@ -96,6 +96,11 @@ h4 {
 
 .parallax:nth-of-type(4){
     height: 350px;
+}
+
+dl li {
+    text-align:start;
+    
 }
 
 
