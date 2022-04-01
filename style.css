@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}  
 
 :root {
     --blue: #1D3557;
@@ -7,44 +15,47 @@
     --blue3: #A8DADC;
     --white: #F1FAEE;
     --red: #E63946;
+    font-size: 16px;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    
-}   
-
 body {
-    font-family: 'Inter', sans-serif;
     color: var(--blue);
     max-width: 100%;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
 }
 
 .header-menu {
  display: flex;
- justify-content: space-between; 
- max-width: 98%;
+ justify-content: center; 
+ max-width: 100%; 
 }
 
 .img-menu {
-    width: 10em;
+    width: 40%;
 }
 
 h1 {
     text-align: center;
-    font-family: 'Noto Serif', serif;
-    letter-spacing: .2em;
     margin: 10px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
    }
 
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin: 10px 10px;
+}
+
 p {
-    font-family: 'Noto Serif', serif;
-    font-size: 20px;
+    font-size: 1.3rem;
+    margin: 0 5px 10px 5px;
 }
 
 
-div {    
+.parallax {
+    max-width: 100%;    
     height: 450px;
     text-align: center;
     background-position: center;
@@ -54,26 +65,21 @@ div {
 }
 
 
-div:nth-of-type(1){
+.parallax:nth-of-type(1){
     background-image: url("./lib/Propagandas/seu-sitesvg.svg");
 }
-div:nth-of-type(3){
+.parallax:nth-of-type(3){
     background-image: url("./lib/Propagandas/conetesesvg.svg");
 }
 
-div:nth-of-type(2){
+.parallax:nth-of-type(2){
     height: 320px;
 }
 
-div:nth-of-type(4){
+.parallax:nth-of-type(4){
     height: 350px;
 }
 
-.txt-h2 {
-    color: var(--red);
-    margin: 20px 20px;
-    text-align: center;
-}
 
 /* From cssbuttons.io by @adamgiebl */
 .button-3d {
@@ -137,3 +143,4 @@ div:nth-of-type(4){
     bottom: 5px;
     z-index: 1;
 }
+
