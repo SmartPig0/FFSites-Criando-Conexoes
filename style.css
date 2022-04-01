@@ -58,6 +58,19 @@ h4 {
     font-size: 10px;
 }
 
+#txt-p {
+    margin-bottom: 10px;
+}
+
+#img-id {
+    margin-top: -25px;
+}
+
+#img-1 {
+    margin-top: -150px;
+    margin-bottom: -42px;
+}
+
 
 .parallax {
     max-width: 100%;    
