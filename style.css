@@ -58,6 +58,19 @@ h4 {
     font-size: 10px;
 }
 
+#txt-p {
+    margin-bottom: 10px;
+}
+
+#img-id {
+    margin-top: -25px;
+}
+
+#img-1 {
+    margin-top: -150px;
+    margin-bottom: -42px;
+}
+
 
 .parallax {
     max-width: 100%;    
@@ -154,4 +167,48 @@ h4 {
 
 .line {
     border: solid 1px var(--blue);
+}
+
+@media only screen and (min-width: 800px){
+   
+    .parallax:nth-of-type(1){
+        background-image: url("./lib/Background121440jpg.jpg");
+    }
+    .parallax:nth-of-type(3){
+        background-image: url("./lib/Background2-1440jpg.jpg");
+    }
+
+    #contato {    
+        width: 350px;
+        position: fixed;
+        bottom: -60px;
+        z-index: 1;
+        left: 0px;
+    }
+
+    .img-menu {
+        width: 20%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    .main-first img {
+        width: 30%;
+        }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.7rem;
+        line-height: 35px;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+    
 }
